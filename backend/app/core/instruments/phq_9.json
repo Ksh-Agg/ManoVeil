@@ -1,0 +1,16 @@
+{
+  "name": "PHQ-9",
+  "description": "Patient Health Questionnaire-9. Screens for and measures severity of depression.",
+  "estimated_minutes": 4,
+  "questions": [
+    {"id": "p1", "text": "Little interest or pleasure in doing things", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p2", "text": "Feeling down, depressed, or hopeless", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p3", "text": "Trouble falling or staying asleep, or sleeping too much", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p4", "text": "Feeling tired or having little energy", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p5", "text": "Poor appetite or overeating", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p6", "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p7", "text": "Trouble concentrating on things, such as reading the newspaper or watching television", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p8", "text": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "p9", "text": "Thoughts that you would be better off dead or of hurting yourself in some way", "subscale": "depression", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]}
+  ]
+}

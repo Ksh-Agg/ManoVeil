@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --persona-color: #34D399;
+  --persona-bg: #f0fdf4;
+  --persona-text: #065f46;
+}
+
+/* Soothing gradient backgrounds */
+.bg-soothing {
+  background: linear-gradient(135deg, #f0fdf4 0%, #f5f3ff 50%, #f0fdfa 100%);
+}
+
+.bg-soothing-dark {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* Persona theme overrides */
+[data-persona="manomitra"] { --persona-color: #FBBF24; --persona-bg: #FFFBEB; --persona-text: #92400E; }
+[data-persona="manospark"] { --persona-color: #F472B6; --persona-bg: #FDF2F8; --persona-text: #9D174D; }
+[data-persona="manoveil_core"] { --persona-color: #34D399; --persona-bg: #F0FDF4; --persona-text: #065F46; }
+[data-persona="manobalance"] { --persona-color: #60A5FA; --persona-bg: #EFF6FF; --persona-text: #1E40AF; }
+[data-persona="manosaathi"] { --persona-color: #A78BFA; --persona-bg: #F5F3FF; --persona-text: #5B21B6; }
+[data-persona="manoconnect"] { --persona-color: #2DD4BF; --persona-bg: #F0FDFA; --persona-text: #134E4A; }
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+
+/* Card hover effects */
+.card-hover {
+  @apply transition-all duration-300 ease-in-out;
+}
+.card-hover:hover {
+  @apply shadow-lg -translate-y-1;
+}
+
+/* SOS button breathing animation */
+.sos-pulse {
+  animation: sos-breathe 2s ease-in-out infinite;
+}
+@keyframes sos-breathe {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(239, 68, 68, 0); }
+}

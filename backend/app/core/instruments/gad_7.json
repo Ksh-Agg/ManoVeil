@@ -1,0 +1,14 @@
+{
+  "name": "GAD-7",
+  "description": "Generalized Anxiety Disorder 7-item scale. Screens for and measures severity of generalized anxiety.",
+  "estimated_minutes": 3,
+  "questions": [
+    {"id": "g1", "text": "Feeling nervous, anxious, or on edge", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "g2", "text": "Not being able to stop or control worrying", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "g3", "text": "Worrying too much about different things", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "g4", "text": "Trouble relaxing", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "g5", "text": "Being so restless that it's hard to sit still", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "g6", "text": "Becoming easily annoyed or irritable", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]},
+    {"id": "g7", "text": "Feeling afraid as if something awful might happen", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Several days"}, {"value": 2, "label": "More than half the days"}, {"value": 3, "label": "Nearly every day"}]}
+  ]
+}

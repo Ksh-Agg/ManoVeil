@@ -1,0 +1,17 @@
+{
+  "name": "CDI-2 (Adapted)",
+  "description": "Children's Depression Inventory - adapted screening version for ages 5-12. Uses simplified language.",
+  "estimated_minutes": 10,
+  "questions": [
+    {"id": "c1", "text": "I feel sad", "subscale": "mood", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "Most of the time"}]},
+    {"id": "c2", "text": "Nothing is fun anymore", "subscale": "anhedonia", "options": [{"value": 0, "label": "Not true"}, {"value": 1, "label": "A little true"}, {"value": 2, "label": "Very true"}]},
+    {"id": "c3", "text": "I feel like crying", "subscale": "mood", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "Most of the time"}]},
+    {"id": "c4", "text": "Things bother me a lot", "subscale": "irritability", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "A lot"}]},
+    {"id": "c5", "text": "I feel alone", "subscale": "interpersonal", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "Most of the time"}]},
+    {"id": "c6", "text": "I have trouble sleeping", "subscale": "physical", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "A lot"}]},
+    {"id": "c7", "text": "I feel tired", "subscale": "physical", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "A lot"}]},
+    {"id": "c8", "text": "I don't feel like eating", "subscale": "physical", "options": [{"value": 0, "label": "Not true"}, {"value": 1, "label": "A little true"}, {"value": 2, "label": "Very true"}]},
+    {"id": "c9", "text": "I worry about bad things happening", "subscale": "anxiety", "options": [{"value": 0, "label": "Not at all"}, {"value": 1, "label": "Sometimes"}, {"value": 2, "label": "A lot"}]},
+    {"id": "c10", "text": "I feel like I can't do anything right", "subscale": "self_esteem", "options": [{"value": 0, "label": "Not true"}, {"value": 1, "label": "A little true"}, {"value": 2, "label": "Very true"}]}
+  ]
+}

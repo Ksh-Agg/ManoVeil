@@ -1,0 +1,17 @@
+{
+  "name": "SCARED",
+  "description": "Screen for Child Anxiety Related Emotional Disorders. Screens for anxiety disorders in children and adolescents.",
+  "estimated_minutes": 8,
+  "questions": [
+    {"id": "s1", "text": "When I feel frightened, it is hard for me to breathe", "subscale": "panic", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s2", "text": "I get headaches when I am at school", "subscale": "school_avoidance", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s3", "text": "I worry about other people liking me", "subscale": "social_anxiety", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s4", "text": "I feel nervous with people I don't know well", "subscale": "social_anxiety", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s5", "text": "I worry about things working out for me", "subscale": "generalized_anxiety", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s6", "text": "I am afraid of being in crowded places", "subscale": "panic", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s7", "text": "I worry about sleeping alone", "subscale": "separation_anxiety", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s8", "text": "I worry about being as good as other kids", "subscale": "generalized_anxiety", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s9", "text": "I am scared to go to school", "subscale": "school_avoidance", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]},
+    {"id": "s10", "text": "I follow my mother or father wherever they go", "subscale": "separation_anxiety", "options": [{"value": 0, "label": "Not true or hardly ever true"}, {"value": 1, "label": "Somewhat or sometimes true"}, {"value": 2, "label": "Very true or often true"}]}
+  ]
+}
